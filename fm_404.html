@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#403348">
+  <meta name="robots" content="noindex, follow">
+  <title>404 - Page Not Found | Stackly Charity Organization</title>
+  <link rel="icon" href="assets/images/favicons/favicon-32x32.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    :root{--purple:#76508f;--purple-dark:#403348;--lavender:#f8effb;--cyan:#61deff;--ink:#282132;--muted:#eee5f2;--line:rgba(248,239,251,.25);--focus:rgba(97,222,255,.78)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{width:100%;min-height:100%;}
+    body{font-family:'DM Sans',Arial,sans-serif;color:#fff;background:#241b2b;overflow-x:hidden}
+    .error-page{position:relative;isolation:isolate;min-height:100svh;display:grid;place-items:center;padding:34px 22px;overflow:hidden}
+    .error-bg{position:absolute;inset:0;z-index:-3;background:#403348 url('assets/images/backgrounds/page-header-bg-1-1.webp') center/cover no-repeat;transform:scale(1.02)}
+    .error-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,rgba(36,27,43,.88),rgba(64,51,72,.73) 52%,rgba(48,35,58,.86)),linear-gradient(0deg,rgba(35,25,42,.4),transparent 60%)}
+    .ambient{position:absolute;z-index:-2;width:min(72vw,780px);aspect-ratio:1;border-radius:50%;left:50%;top:48%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(197,228,246,.18),rgba(118,80,143,.12) 38%,transparent 70%);pointer-events:none}
+    .content{width:min(900px,100%);text-align:center;display:flex;align-items:center;flex-direction:column;position:relative;z-index:1}
+    .brand{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:18px;color:#fff;font-family:'Outfit',sans-serif;font-size:clamp(19px,2.6vw,27px);font-weight:800;letter-spacing:5px}
+    .brand-mark{width:35px;height:35px;object-fit:contain}
+    .tagline{display:inline-flex;align-items:center;gap:9px;padding:9px 15px;margin-bottom:23px;border:1px solid rgba(248,239,251,.27);border-radius:999px;background:rgba(248,239,251,.10);color:#f8effb;font-size:10px;font-weight:700;letter-spacing:2.4px;text-transform:uppercase;backdrop-filter:blur(12px)}
+    .tagline i{color:var(--cyan);font-size:12px}
+    .number{font-family:'Outfit',sans-serif;font-size:clamp(150px,26vw,300px);font-weight:800;line-height:.78;letter-spacing:-.075em;padding-right:.075em;color:transparent;background:linear-gradient(115deg,#fff 7%,#d9f7ff 34%,#61deff 57%,#c7a1df 82%,#f8effb 100%);background-clip:text;-webkit-background-clip:text;filter:drop-shadow(0 10px 26px rgba(15,9,20,.25));user-select:none}
+    h1{font-family:'Outfit',sans-serif;margin-top:28px;font-size:clamp(25px,4vw,43px);font-weight:700;line-height:1.15;letter-spacing:.045em;color:#fff}
+    h1 span{color:#d8b7eb}
+    .message{max-width:620px;margin:16px auto 0;color:#f2eaf5;font-size:clamp(14px,1.5vw,16px);line-height:1.8}
+    .actions{display:flex;justify-content:center;align-items:center;gap:13px;flex-wrap:wrap;margin-top:29px}
+    .btn{min-height:53px;min-width:205px;padding:0 24px;display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;text-decoration:none;font-family:inherit;font-size:14px;font-weight:700;transition:background .25s ease,border-color .25s ease,transform .25s ease,box-shadow .25s ease;border:1px solid transparent;cursor:pointer}
+    .btn-primary{color:#fff;background:var(--purple);box-shadow:0 12px 30px rgba(16,8,23,.22)}
+    .btn-secondary{color:#fff;background:rgba(248,239,251,.10);border-color:rgba(248,239,251,.38);backdrop-filter:blur(10px)}
+    .footer-note{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;margin-top:27px;color:#e8dbea;font-size:12px;letter-spacing:.15px}
+    .footer-note span{display:inline-flex;align-items:center;gap:9px;padding:10px 15px;min-height:44px;border:1px solid rgba(248,239,251,.22);border-radius:999px;background:rgba(248,239,251,.09);box-shadow:inset 0 1px 0 rgba(255,255,255,.06);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .28s ease,border-color .28s ease,box-shadow .28s ease,transform .28s cubic-bezier(.2,.8,.2,1);}
+    .footer-note i{color:var(--cyan);font-size:14px;transition:color .28s ease,transform .28s ease}
+    .btn:focus-visible,.footer-note span:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
+    @media(min-width:1025px) and (hover:hover) and (pointer:fine){.btn-primary:hover{transform:translateY(-3px);background:#8a64a2;box-shadow:0 18px 38px rgba(14,7,20,.3)}.btn-secondary:hover{transform:translateY(-3px);background:rgba(248,239,251,.18);border-color:rgba(97,222,255,.75)}.footer-note span:hover{transform:translateY(-4px);background:rgba(118,80,143,.34);border-color:rgba(97,222,255,.58);box-shadow:0 12px 28px rgba(15,8,22,.24),inset 0 1px 0 rgba(255,255,255,.1)}.footer-note span:hover i{color:#fff;transform:scale(1.12)}}
+    @media(max-width:700px){.error-page{padding:28px 19px}.brand{margin-bottom:16px;letter-spacing:4px}.brand-mark{width:30px;height:30px}.tagline{font-size:9px;letter-spacing:1.7px;margin-bottom:21px;padding:8px 12px}.number{font-size:clamp(135px,34vw,205px)}h1{margin-top:25px;font-size:clamp(25px,7vw,34px)}.message{font-size:14px;line-height:1.7;margin-top:13px}.actions{width:min(360px,100%);display:grid;grid-template-columns:1fr;gap:10px;margin-top:24px}.btn{width:100%;min-height:50px}.footer-note{margin-top:20px;gap:7px;font-size:10px}.footer-note span{padding:7px 10px}}
+    @media(max-width:380px){.number{font-size:125px}.tagline{font-size:8px;letter-spacing:1.2px}h1{font-size:24px}.footer-note{display:grid;grid-template-columns:1fr;justify-items:center}}
+    @media(max-height:650px) and (min-width:701px){.error-page{padding-top:20px;padding-bottom:20px}.brand{margin-bottom:10px}.tagline{margin-bottom:14px}.number{font-size:clamp(120px,25vh,190px)}h1{margin-top:20px;font-size:30px}.message{margin-top:10px;font-size:13px}.actions{margin-top:18px}.footer-note{margin-top:15px}}
+    @media(hover:none),(pointer:coarse){.footer-note span,.btn{transition:none!important}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <main class="error-page">
+    <div class="error-bg" aria-hidden="true"></div><div class="ambient" aria-hidden="true"></div>
+    <section class="content" aria-labelledby="error-title">
+      <div class="brand"><img class="brand-mark" src="assets/images/logo-light.webp" alt="" onerror="this.style.display='none'"><span>STACKLY</span></div>
+      <div class="tagline"><i class="fa-solid fa-heart"></i> Charity Organization</div>
+      <div class="number" aria-label="404">404</div>
+      <h1 id="error-title"><span>PAGE</span> NOT FOUND</h1>
+      <p class="message">Sorry, we couldn’t find the page you’re looking for. It may have moved or the link may be outdated. Let’s get you back to the people and causes that matter.</p>
+      <div class="actions">
+        <button class="btn btn-secondary" type="button" id="backPrevious"><i class="fa-solid fa-arrow-left"></i> Back to Previous Page</button>
+        <a class="btn btn-primary" href="fm_dashboard.html"><i class="fa-solid fa-laptop"></i> Back to User Dashboard</a>
+      </div>
+      <div class="footer-note" aria-label="Our mission">
+        <span><i class="fa-solid fa-hand-holding-heart"></i> Support Communities</span>
+        <span><i class="fa-solid fa-people-group"></i> Make a Difference</span>
+        <span><i class="fa-solid fa-heart"></i> Spread Hope</span>
+      </div>
+    </section>
+  </main>
+  <script>
+    document.getElementById('backPrevious').addEventListener('click', function () {
+      if (window.history.length > 1) window.history.back();
+      else window.location.href = 'fm_dashboard.html';
+    });
+  </script>
+</body>
+</html>

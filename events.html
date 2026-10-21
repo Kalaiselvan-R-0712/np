@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Our Events || Stackly || Nonprofit Charity </title>
+ <!-- favicons Icons -->
+ <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/favicon-32x32.webp" />
+ <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.webp" />
+ <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-32x32.webp" />
+ <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+ <meta name="description" content="Stackly is a professional Non-Profit Charity design. It suits charity, donation, eco, events, environment, foundation, fundraising, nonprofit, and volunteer-related needs." />
+
+ <!-- fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+
+
+ <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+ <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+ <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+ <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+ <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+ <link rel="stylesheet" href="assets/vendors/date-time-picker/jquery.datetimepicker.min.css" />
+ <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+ <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+ <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+ <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+ <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+ <link rel="stylesheet" href="assets/vendors/stackly-icons/style.css" />
+ <link rel="stylesheet" href="assets/vendors/slick/slick.css">
+ <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+ <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+ <!-- template styles -->
+ <link rel="stylesheet" href="assets/css/stackly.css" />
+
+<style id="footer-social-brand-style">
+/* Five uniform monochrome social logos in one horizontal row */
+.main-footer__social{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:flex-start;gap:8px!important;width:max-content;max-width:100%;white-space:nowrap}
+.main-footer__social>a{flex:0 0 46px!important;width:46px!important;height:46px!important;min-width:46px!important;border:1px solid #55445f!important;border-radius:50%!important;background:#f8effb!important;color:#403348!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0!important;box-sizing:border-box;text-decoration:none;transition:background-color .2s ease,border-color .2s ease,transform .2s ease}
+.main-footer__social .footer-brand-mark{width:23px;height:23px;display:inline-flex;align-items:center;justify-content:center;color:#403348!important;font-size:23px;line-height:1;font-weight:600;font-family:Arial,sans-serif;font-style:normal}
+.main-footer__social .footer-brand-mark--gmail{font-size:21px;font-weight:800;letter-spacing:-2px}
+.main-footer__social .footer-brand-mark--x{font-size:25px;font-weight:400}
+@media (hover:hover) and (min-width:1025px){.main-footer__social>a:hover{transform:translateY(-2px);background:#f1e2f7!important;border-color:#76508f!important}}
+@media(max-width:575px){.main-footer__social{gap:6px!important}.main-footer__social>a{flex-basis:40px!important;width:40px!important;height:40px!important;min-width:40px!important}.main-footer__social .footer-brand-mark{font-size:20px}.main-footer__social .footer-brand-mark--gmail{font-size:19px}.main-footer__social .footer-brand-mark--x{font-size:22px}}
+</style>
+
+</head>
+
+<body class="custom-cursor" id="top">
+
+ <div class="custom-cursor__cursor"></div>
+ <div class="custom-cursor__cursor-two"></div>
+
+ <div class="preloader">
+ <div class="preloader__image" style="background-image: url(assets/images/loader.webp);"></div>
+ </div>
+ <!-- /.preloader -->
+ <div class="page-wrapper">
+ <header class="main-header main-header--two sticky-header sticky-header--normal">
+ <div class="container-fluid">
+ <div class="main-header__inner">
+ <div class="main-header__logo logo-retina">
+ <a href="index.html">
+ <img src="assets/images/logo-dark.webp" alt="Stackly HTML" width="213">
+ </a>
+ </div><!-- /.main-header__logo -->
+ <div class="main-header__right">
+ <nav class="main-header__nav main-menu">
+ <ul class="main-menu__list">
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="events.html" class="current" aria-current="page">Events</a></li>
+ <li><a href="blog-grid.html">Blog</a></li>
+ <li><a href="volunteers.html">Volunteers</a></li>
+ <li><a href="donations-grid.html">Donations</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul>
+ </nav><!-- /.main-header__nav -->
+ <div class="mobile-nav__btn mobile-nav__toggler">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div><!-- /.mobile-nav__toggler -->
+ <div class="main-header__link header-account-actions">
+ <a href="login.html" class="header-account-btn header-login-btn">Login</a>
+ <a href="register.html" class="header-account-btn header-register-btn">Register</a>
+ </div><!-- /.main-header__link -->
+ </div><!-- /.main-header__right -->
+ </div><!-- /.main-header__inner -->
+ </div><!-- /.container-fluid -->
+ </header><!-- /.main-header -->
+ <section class="page-header">
+ <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg-1-1.webp);">
+ <div class="page-header__bg__inner" style="background-image: url(assets/images/shapes/error-404-bg-shape-1-1.webp);"></div>
+ <div class="page-header__shape-1"></div><!-- /.page-header__shape-1 -->
+ <div class="page-header__shape-2"></div><!-- /.page-header__shape-2 -->
+ <img src="assets/images/shapes/error-404-bg-shape-1-2.webp" alt="error 404" class="page-header__shape-3">
+ </div><!-- /.page-header__bg -->
+ <div class="container">
+ <div class="page-header__content">
+ <h2 class="page-header__title">Our Events</h2>
+ <ul class="stackly-breadcrumb list-unstyled">
+ <li><a href="index.html">Home</a></li>
+ <li><span>Our Events</span></li>
+ </ul><!-- /.stackly-breadcrumb list-unstyled -->
+ </div><!-- /.page-header__content -->
+ </div><!-- /.container -->
+ </section><!-- /.page-header -->
+
+ <section class="events-page section-space">
+ <div class="container">
+ <div class="row gutter-y-30">
+ <div class="col-xl-4 col-md-6">
+ <div class="event-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms" style="--accent-color: #C5E4F6;">
+ <div class="event-card__content">
+ <h3 class="event-card__title">
+ <a href="event-details-right.html">Hope for Katia Persists Despite Hardships in Hait</a>
+ </h3><!-- /.event-card__title -->
+ <p class="event-card__text">This beacon estimates the actual impact a charity has on the lives of those it serves, and determines whether it is making good use of donor resources</p><!-- /.event-card__text -->
+ <div class="event-card__location">
+ <span class="event-card__location__icon"><i class="icon-location"></i></span>
+ <a href="https://www.google.com/maps" class="event-card__location__link">14200 Park Meadow Drive, Suite 330S</a>
+ </div><!-- /.event-card__location -->
+ <a href="event-details-right.html" class="stackly-btn stackly-btn--white">
+ <span>Event Details</span>
+ </a><!-- /.stackly-btn -->
+ </div><!-- /.event-card__content -->
+ <img src="assets/images/shapes/event-shape-1-1.webp" alt="shape" class="event-card__shape">
+ </div><!-- /.event-card -->
+ </div><!-- /.col-xl-4 col-md-6 -->
+ <div class="col-xl-4 col-md-6">
+ <div class="event-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms" style="--accent-color: #F0E4E4;">
+ <div class="event-card__content">
+ <h3 class="event-card__title">
+ <a href="event-details-right.html">Prioritizing Nutrition During Drought in Kenya</a>
+ </h3><!-- /.event-card__title -->
+ <p class="event-card__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteradution in some form by injected humour, or randomised</p><!-- /.event-card__text -->
+ <div class="event-card__location">
+ <span class="event-card__location__icon"><i class="icon-location"></i></span>
+ <a href="https://www.google.com/maps" class="event-card__location__link">14200 Park Meadow Drive, Suite 330S</a>
+ </div><!-- /.event-card__location -->
+ <a href="event-details-right.html" class="stackly-btn stackly-btn--white">
+ <span>Event Details</span>
+ </a><!-- /.stackly-btn -->
+ </div><!-- /.event-card__content -->
+ <img src="assets/images/shapes/event-shape-1-1.webp" alt="shape" class="event-card__shape">
+ </div><!-- /.event-card -->
+ </div><!-- /.col-xl-4 col-md-6 -->
+ <div class="col-xl-4 col-md-6">
+ <div class="event-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms" style="--accent-color: #F4E7FC;">
+ <div class="event-card__content">
+ <h3 class="event-card__title">
+ <a href="event-details-right.html">Poverty in Curbed by Meals & Education</a>
+ </h3><!-- /.event-card__title -->
+ <p class="event-card__text">Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim.</p><!-- /.event-card__text -->
+ <div class="event-card__location">
+ <span class="event-card__location__icon"><i class="icon-location"></i></span>
+ <a href="https://www.google.com/maps" class="event-card__location__link">14200 Park Meadow Drive, Suite 330S</a>
+ </div><!-- /.event-card__location -->
+ <a href="event-details-right.html" class="stackly-btn stackly-btn--white">
+ <span>Event Details</span>
+ </a><!-- /.stackly-btn -->
+ </div><!-- /.event-card__content -->
+ <img src="assets/images/shapes/event-shape-1-1.webp" alt="shape" class="event-card__shape">
+ </div><!-- /.event-card -->
+ </div><!-- /.col-xl-4 col-md-6 -->
+ <div class="col-xl-4 col-md-6">
+ <div class="event-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms" style="--accent-color: #C5E4F6;">
+ <div class="event-card__content">
+ <h3 class="event-card__title">
+ <a href="event-details-right.html">Women’s Economic Justice practice engages</a>
+ </h3><!-- /.event-card__title -->
+ <p class="event-card__text">Ultimate measure of success you gotta smoke test your hypothesis, nor hire the best slow-walk our commitment. Lean into that problem . Tiger team ultimate.</p><!-- /.event-card__text -->
+ <div class="event-card__location">
+ <span class="event-card__location__icon"><i class="icon-location"></i></span>
+ <a href="https://www.google.com/maps" class="event-card__location__link">14200 Park Meadow Drive, Suite 330S</a>
+ </div><!-- /.event-card__location -->
+ <a href="event-details-right.html" class="stackly-btn stackly-btn--white">
+ <span>Event Details</span>
+ </a><!-- /.stackly-btn -->
+ </div><!-- /.event-card__content -->
+ <img src="assets/images/shapes/event-shape-1-1.webp" alt="shape" class="event-card__shape">
+ </div><!-- /.event-card -->
+ </div><!-- /.col-xl-4 col-md-6 -->
+ <div class="col-xl-4 col-md-6">
+ <div class="event-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms" style="--accent-color: #F0E4E4;">
+ <div class="event-card__content">
+ <h3 class="event-card__title">
+ <a href="event-details-right.html">Provide healthy meals to a child</a>
+ </h3><!-- /.event-card__title -->
+ <p class="event-card__text">Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet nec.</p><!-- /.event-card__text -->
+ <div class="event-card__location">
+ <span class="event-card__location__icon"><i class="icon-location"></i></span>
+ <a href="https://www.google.com/maps" class="event-card__location__link">14200 Park Meadow Drive, Suite 330S</a>
+ </div><!-- /.event-card__location -->
+ <a href="event-details-right.html" class="stackly-btn stackly-btn--white">
+ <span>Event Details</span>
+ </a><!-- /.stackly-btn -->
+ </div><!-- /.event-card__content -->
+ <img src="assets/images/shapes/event-shape-1-1.webp" alt="shape" class="event-card__shape">
+ </div><!-- /.event-card -->
+ </div><!-- /.col-xl-4 col-md-6 -->
+ <div class="col-xl-4 col-md-6">
+ <div class="event-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms" style="--accent-color: #F4E7FC;">
+ <div class="event-card__content">
+ <h3 class="event-card__title">
+ <a href="event-details-right.html">Helping before, during and after a crisis</a>
+ </h3><!-- /.event-card__title -->
+ <p class="event-card__text">Tbrand terrorists keep it lean mumbo jumbo, but turn the ship, for accountable talk digitalize productize. Make it look like digital this is meaningless, or we have.</p><!-- /.event-card__text -->
+ <div class="event-card__location">
+ <span class="event-card__location__icon"><i class="icon-location"></i></span>
+ <a href="https://www.google.com/maps" class="event-card__location__link">14200 Park Meadow Drive, Suite 330S</a>
+ </div><!-- /.event-card__location -->
+ <a href="event-details-right.html" class="stackly-btn stackly-btn--white">
+ <span>Event Details</span>
+ </a><!-- /.stackly-btn -->
+ </div><!-- /.event-card__content -->
+ <img src="assets/images/shapes/event-shape-1-1.webp" alt="shape" class="event-card__shape">
+ </div><!-- /.event-card -->
+ </div><!-- /.col-xl-4 col-md-6 -->
+ </div><!-- /.row gutter-y-30 -->
+ </div><!-- /.container -->
+ </section><!-- /.events-page section-space -->
+
+ <footer class="main-footer @@extraClassName section-space-top">
+ <div class="main-footer__top">
+ <div class="container">
+ <div class="row gutter-y-40">
+ <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+ <div class="footer-widget footer-widget--about">
+ <a href="index.html" class="footer-widget__logo">
+ <img src="assets/images/logo-dark.webp" width="213" alt="Stackly ">
+ </a>
+ <ul class="footer-widget__links footer-widget__links--about">
+ <li><a href="faq.html">Terms &amp; Conditions</a></li>
+ <li><a href="faq.html">Privacy policy</a></li>
+ <li><a href="about.html">Destinations</a></li>
+ </ul><!-- /.lfooter-widget__links -->
+ <a href="#" class="footer-widget__btn stackly-btn stackly-btn--primary">
+ <span>Donation</span>
+ </a><!-- /.footer-widget__btn stackly-btn -->
+ </div><!-- /.footer-widget -->
+ </div><!-- /.col-xl-3 col-lg-4 col-md-6 -->
+ <div class="col-xl-2 col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+ <div class="footer-widget footer-widget--links">
+ <h2 class="footer-widget__title">Essentials</h2><!-- /.footer-widget__title -->
+ <ul class="list-unstyled footer-widget__links footer-primary-navigation">
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="events.html">Events</a></li>
+ <li><a href="blog-grid.html">Blog</a></li>
+ <li><a href="volunteers.html">Volunteers</a></li>
+ <li><a href="donations-grid.html">Donations</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul><!-- /.list-unstyled footer-widget__links -->
+ </div><!-- /.footer-widget -->
+ </div><!-- /.col-xl-2 col-lg-3 col-md-6 -->
+ <div class="col-xl-3 col-lg-5 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+ <div class="footer-widget footer-widget--contact">
+ <h2 class="footer-widget__title">Get In Touch!</h2><!-- /.footer-widget__title -->
+ <ul class="list-unstyled footer-widget__contact">
+ <li>
+ <span class="footer-widget__contact__icon"><i class="icon-phone-call"></i></span>
+ <div class="footer-widget__contact__text">
+ <a href="tel:+91-70107927450" class="footer-widget__contact__link">+91-70107927450</a>
+ <p class="footer-widget__contact__title">Free support</p>
+ </div><!-- /.footer-widget__contact__text -->
+ </li>
+ <li>
+ <span class="footer-widget__contact__icon"><i class="icon-location-2"></i></span>
+ <div class="footer-widget__contact__text">
+ <a href="https://www.google.com/maps" class="footer-widget__contact__link">MMR Complex, Salem, TN, India</a>
+ <p class="footer-widget__contact__title">Our location</p>
+ </div><!-- /.footer-widget__contact__text -->
+ </li>
+ <li>
+ <span class="footer-widget__contact__icon"><i class="icon-email-2"></i></span>
+ <div class="footer-widget__contact__text">
+ <a href="mailto:support@stackly.com" class="footer-widget__contact__link">support@stackly.com</a>
+ <p class="footer-widget__contact__title">Emergency email</p>
+ </div><!-- /.footer-widget__contact__text -->
+ </li>
+ </ul><!-- /.list-unstyled footer-widget__contact -->
+ </div><!-- /.footer-widget -->
+ </div><!-- /.col-xl-3 col-lg-5 col-md-6 -->
+ <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+ <div class="footer-widget footer-widget--newsletter">
+ <h2 class="footer-widget__title">Sign up Offers</h2><!-- /.footer-widget__title -->
+ <p class="footer-widget__newsletter-text">Subscribe Us & Recive Our Offers and <br> Updates i Your Inbox Directly.</p><!-- /.footer-widget__newsletter-text -->
+ <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form" novalidate>
+ <input type="email" name="EMAIL" placeholder="Email address">
+ <button type="submit">
+ <i class="icon-paper-plane"></i>
+ <span class="sr-only">submit</span><!-- /.sr-only -->
+ </button>
+ </form><!-- /.footer-widget__newsletter mc-form -->
+ </div><!-- /.footer-widget -->
+ </div><!-- /.col-xl-4 col-lg-6 col-md-6 -->
+ </div><!-- /.row gutter-y-40 -->
+ </div><!-- /.container -->
+ </div><!-- /.main-footer__top -->
+ <div class="main-footer__bottom">
+ <div class="container">
+ <div class="main-footer__bottom__inner">
+ <div class="row gutter-y-30 align-items-center">
+ <div class="col-lg-3 col-md-5">
+ <div class="main-footer__social">
+ <a href="mailto:support@stackly.com" aria-label="Gmail"><svg class="footer-brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 6.5 12 12.5 20 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="sr-only">Gmail</span></a>
+ <a href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="footer-brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M5.2 3.5a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6ZM3.6 8.5h3.2V20H3.6V8.5Zm5.3 0H12v1.57h.05c.43-.82 1.49-1.83 3.07-1.83 3.28 0 3.88 2.16 3.88 4.97V20h-3.2v-6.02c0-1.44-.03-3.29-2.01-3.29-2.01 0-2.32 1.57-2.32 3.19V20H8.9V8.5Z"/></svg><span class="sr-only">LinkedIn</span></a>
+ <a href="https://x.com/" aria-label="X"><svg class="footer-brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.9 2H22l-6.78 7.75L23.2 22h-6.25l-4.9-7.43L5.55 22H2.42l7.25-8.29L1.8 2h6.4l4.43 6.77L18.9 2Zm-1.1 17.9h1.73L7.27 3.98H5.42L17.8 19.9Z"/></svg><span class="sr-only">X</span></a>
+ <a href="https://www.facebook.com/" aria-label="Facebook"><svg class="footer-brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.5 21v-8.2h2.76l.41-3.2H13.5V7.56c0-.93.26-1.56 1.6-1.56h1.7V3.14c-.3-.04-1.35-.14-2.57-.14-2.54 0-4.28 1.55-4.28 4.4v2.2H7.08v3.2h2.87V21h3.55Z"/></svg><span class="sr-only">Facebook</span></a>
+ <a href="https://www.instagram.com/" aria-label="Instagram"><svg class="footer-brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2.2a3 3 0 0 0-3 3v9.6a3 3 0 0 0 3 3h9.6a3 3 0 0 0 3-3V7.2a3 3 0 0 0-3-3H7.2Zm4.8 3.1a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4Zm0 2.2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5-3.8a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/></svg><span class="sr-only">Instagram</span></a>
+ </div>
+ </div><!-- /.col-lg-3 col-md-5 -->
+ <div class="col-lg-6 col-md-7">
+ <p class="main-footer__copyright">
+ &copy; Copyright <span class="dynamic-year"></span> by Stackly .
+ </p>
+ </div><!-- /.col-lg-6 col-md-7 -->
+ <div class="col-lg-3 text-center text-lg-end">
+ <a href="#top" class="main-footer__back-to-top stackly-btn"><span>Back to Top</span></a><!-- /.main-footer__back-to-top -->
+ </div><!-- /.col-lg-3 -->
+ </div><!-- /.row gutter-y-30 -->
+ </div><!-- /.main-footer__inner -->
+ </div><!-- /.container -->
+ </div><!-- /.main-footer__bottom -->
+ <img src="assets/images/shapes/footer-shape-1-1.webp" alt="footer shape" class="main-footer__shape-1">
+ <img src="assets/images/shapes/footer-shape-1-2.webp" alt="footer shape" class="main-footer__shape-2">
+ <img src="assets/images/shapes/footer-shape-1-3.webp" alt="footer shape" class="main-footer__shape-3">
+ <img src="assets/images/shapes/footer-shape-1-4.webp" alt="footer shape" class="main-footer__shape-4">
+ </footer><!-- /.main-footer -->
+
+ </div><!-- /.page-wrapper -->
+
+ <div class="mobile-nav__wrapper">
+ <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+ <!-- /.mobile-nav__overlay -->
+ <div class="mobile-nav__content">
+ <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-close"></i></span>
+
+ <div class="logo-box">
+ <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.webp" width="213" alt="" /></a>
+ </div>
+ <!-- /.logo-box -->
+ <div class="mobile-nav__container"></div>
+ <!-- /.mobile-nav__container -->
+ <ul class="mobile-nav__contact list-unstyled">
+ <li>
+ <span class="mobile-nav__contact__icon"><i class="fa fa-envelope"></i></span>
+ <a href="mailto:support@stackly.com">support@stackly.com</a>
+ </li>
+ <li>
+ <span class="mobile-nav__contact__icon"><i class="fa fa-phone-alt"></i></span>
+ <a href="tel:+91-70107927450">+91-70107927450</a>
+ </li>
+ </ul><!-- /.mobile-nav__contact -->
+ <div class="mobile-nav__social">
+ <a href="https://www.facebook.com">
+ <i class="fab fa-facebook-f" aria-hidden="true"></i>
+ <span class="sr-only">Facebook</span>
+ </a>
+ <a href="https://www.x.com">
+ <i class="fab fa-twitter" aria-hidden="true"></i>
+ <span class="sr-only">X</span>
+ </a>
+ <a href="https://www.instagram.com">
+ <i class="fab fa-instagram" aria-hidden="true"></i>
+ <span class="sr-only">Instagram</span>
+ </a>
+ <a href="https://www.youtube.com/">
+ <i class="fab fa-youtube" aria-hidden="true"></i>
+ <span class="sr-only">Youtube</span>
+ </a>
+ </div><!-- /.mobile-nav__social -->
+ </div>
+ <!-- /.mobile-nav__content -->
+ </div>
+ <!-- /.mobile-nav__wrapper -->
+ <div class="search-popup">
+ <div class="search-popup__overlay search-toggler"></div>
+ <!-- /.search-popup__overlay -->
+ <div class="search-popup__content">
+ <form role="search" method="get" class="search-popup__form" action="#">
+ <input type="text" id="search" placeholder="Search Here..." />
+ <button type="submit" aria-label="search submit" class="stackly-btn">
+ <i class="icon-search"></i>
+ </button>
+ </form>
+ </div>
+ <!-- /.search-popup__content -->
+ </div>
+ <!-- /.search-popup -->
+
+ <!-- back-to-top-start -->
+ <a href="#" class="scroll-top">
+ <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+ <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+ </svg>
+ </a>
+ <!-- back-to-top-end -->
+
+ <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+ <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+ <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+ <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+ <script src="assets/vendors/date-time-picker/jquery.datetimepicker.min.js"></script>
+ <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+ <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+ <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+ <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+ <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+ <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+ <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+ <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+ <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+ <script src="assets/vendors/wow/wow.js"></script>
+ <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+ <script src="assets/vendors/isotope/isotope.js"></script>
+ <script src="assets/vendors/slick/slick.min.js"></script>
+ <script src="assets/vendors/countdown/countdown.min.js"></script>
+ <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+ <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+ <!-- gsap js -->
+ <script src="assets/vendors/gsap/gsap.js"></script>
+ <script src="assets/vendors/gsap/scrolltrigger.min.js"></script>
+ <script src="assets/vendors/gsap/splittext.min.js"></script>
+ <script src="assets/vendors/gsap/stackly-split.js"></script>
+ <!-- template js -->
+ <script src="assets/js/stackly.js"></script>
+
+  <!-- Route all content-area actions to the custom 404 page. Header/footer navigation stays functional. -->
+  <script id="stackly-content-click-redirect">
+    (function () {
+      var destination = new URL('404.html', window.location.href).href;
+      var excludedAreas = 'header, footer, .mobile-nav__wrapper, .search-popup, .main-header, .sticky-header, .scroll-top, .main-footer__back-to-top';
+      var actionable = 'a, button, [role="button"], [onclick], input[type="button"], input[type="submit"], input[type="image"], summary, [tabindex]:not([tabindex="-1"])';
+
+      document.addEventListener('click', function (event) {
+        var target = event.target;
+        if (!target || !target.closest) return;
+        if (target.closest(excludedAreas)) return;
+
+        var action = target.closest(actionable);
+        if (!action) {
+          var node = target;
+          while (node && node !== document.body) {
+            if (window.getComputedStyle(node).cursor === 'pointer') {
+              action = node;
+              break;
+            }
+            node = node.parentElement;
+          }
+        }
+
+        if (!action) return;
+        event.preventDefault();
+        event.stopPropagation();
+        if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+        window.location.assign(destination);
+      }, true);
+
+      document.addEventListener('submit', function (event) {
+        if (event.target && !event.target.closest(excludedAreas)) {
+          event.preventDefault();
+          window.location.assign(destination);
+        }
+      }, true);
+    })();
+  </script>
+
+  <!-- Footer interactions: validate newsletter first; only designated footer links redirect. -->
+  <script id="stackly-footer-click-redirect">
+    (function () {
+      var destination = new URL('404.html', window.location.href).href;
+      var emailPattern = /^[A-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?(?:\.[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?)+$/i;
+
+      document.addEventListener('click', function (event) {
+        var target = event.target;
+        if (!target || !target.closest) return;
+
+        var newsletterForm = target.closest('.footer-widget--newsletter form, footer form.mc-form, .main-footer form.mc-form');
+        /* Only the paper-plane submit button should trigger newsletter validation/redirect. */
+        var newsletterSubmitButton = target.closest('.footer-widget--newsletter form button[type="submit"], footer form.mc-form button[type="submit"], .main-footer form.mc-form button[type="submit"]');
+        if (newsletterForm && newsletterSubmitButton && newsletterSubmitButton.form === newsletterForm) {
+          var emailInput = newsletterForm.querySelector('input[name="EMAIL"], input[type="email"]');
+          var email = emailInput ? emailInput.value.trim() : '';
+          event.preventDefault();
+          event.stopPropagation();
+          if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+
+          if (!email) {
+            alert('Please enter your email address.');
+            if (emailInput) emailInput.focus();
+            return;
+          }
+          if (!emailPattern.test(email) || email.length > 254) {
+            alert('Please enter a valid email address.');
+            if (emailInput) emailInput.focus();
+            return;
+          }
+          window.location.assign(destination);
+          return;
+        }
+
+        /* Footer navigation links and back-to-top controls retain their own behavior. */
+        if (target.closest('.footer-primary-navigation a, .main-footer__back-to-top, .scroll-top')) return;
+
+        /* Only explicit footer links/buttons redirect; clicking blank footer space must not. */
+        var footerAction = target.closest('footer a, .main-footer a, .footer a, .footer-widget a, footer button:not(.mc-form button), .main-footer button:not(.mc-form button)');
+        if (footerAction) {
+          event.preventDefault();
+          event.stopPropagation();
+          if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+          window.location.assign(destination);
+        }
+      }, true);
+
+      document.addEventListener('submit', function (event) {
+        var form = event.target;
+        if (!form || !form.matches || !form.matches('.footer-widget--newsletter form, footer form.mc-form, .main-footer form.mc-form')) return;
+        event.preventDefault();
+        event.stopPropagation();
+        if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+
+        var emailInput = form.querySelector('input[name="EMAIL"], input[type="email"]');
+        var email = emailInput ? emailInput.value.trim() : '';
+        if (!email) {
+          alert('Please enter your email address.');
+          if (emailInput) emailInput.focus();
+          return;
+        }
+        if (!emailPattern.test(email) || email.length > 254) {
+          alert('Please enter a valid email address.');
+          if (emailInput) emailInput.focus();
+          return;
+        }
+        window.location.assign(destination);
+      }, true);
+    })();
+  
+    /* Always show a fresh newsletter form when returning to a page, including browser Back/BFCache. */
+    window.addEventListener('pageshow', function () {
+      document.querySelectorAll('.footer-widget--newsletter form, footer form.mc-form, .main-footer form.mc-form').forEach(function (form) {
+        form.reset();
+        form.querySelectorAll('input[name="EMAIL"], input[type="email"]').forEach(function (input) { input.value = ''; });
+      });
+    });
+</script>
+
+</body>
+
+</html>
